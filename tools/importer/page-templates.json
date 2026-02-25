@@ -1,0 +1,57 @@
+{
+  "templates": [
+    {
+      "name": "our-leaders",
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-leaders.html"
+      ],
+      "description": "Leadership team page showcasing company executives and senior leaders with photos and biographical information",
+      "blocks": [
+        {
+          "name": "cards",
+          "instances": [
+            ".grid.aem-GridColumn"
+          ],
+          "section": "leaders-grid"
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Page Hero / Title Area",
+          "selector": ".container.abbvie-container.overlap-predecessor",
+          "style": "navy-blue",
+          "blocks": [],
+          "defaultContent": [
+            ".cmp-title h1",
+            ".cmp-text"
+          ]
+        },
+        {
+          "id": "section-2-leaders-grid",
+          "name": "Leadership Cards Grid",
+          "selector": ".grid.aem-GridColumn",
+          "style": null,
+          "blocks": [
+            "cards"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3-board",
+          "name": "Board of Directors",
+          "selector": ".container.abbvie-container.cmp-container-large",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#title-ba00ff74ce h2",
+            "#text-745d505ffe",
+            ".cmp-separator",
+            "#title-22d1869527 h2",
+            "#text-3e83366f5d"
+          ]
+        }
+      ]
+    }
+  ]
+}
