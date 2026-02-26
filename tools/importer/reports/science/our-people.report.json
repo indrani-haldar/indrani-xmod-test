@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "url": "https://www.abbvie.com/science/our-people.html",
+  "path": "science/our-people",
+  "timestamp": "2026-02-26T12:18:42.637Z",
+  "title": "Shaping the future of science, together | AbbVie",
+  "template": "our-people",
+  "blocks": [
+    "columns",
+    "columns",
+    "columns",
+    "columns",
+    "cards",
+    "cards",
+    "cards",
+    "quote",
+    "columns",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion"
+  ]
+}
