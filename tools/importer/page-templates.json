@@ -52,6 +52,100 @@
           ]
         }
       ]
+    },
+    {
+      "name": "our-people",
+      "urls": [
+        "https://www.abbvie.com/science/our-people.html"
+      ],
+      "description": "Science people page with featured videos, video card grids, testimonial quote, R&D community links, FAQ accordion, and CTA",
+      "blocks": [
+        {
+          "name": "columns",
+          "instances": [
+            ".container.cmp-container-full-width.height-short .grid.no-bottom-margin"
+          ],
+          "section": "video-content"
+        },
+        {
+          "name": "cards",
+          "instances": [
+            ".container.cmp-container-full-width.height-short .grid.cmp-grid-custom"
+          ],
+          "section": "video-content"
+        },
+        {
+          "name": "quote",
+          "instances": [
+            ".container.semi-transparent-layer .cmp-quote"
+          ],
+          "section": "video-content"
+        },
+        {
+          "name": "columns",
+          "instances": [
+            ".container.no-bottom-margin.no-padding .grid"
+          ],
+          "section": "explore-rd"
+        },
+        {
+          "name": "accordion",
+          "instances": [
+            ".accordion.panelcontainer .cmp-accordion"
+          ],
+          "section": "faq"
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Page Hero / Title Area",
+          "selector": ".container.abbvie-container.overlap-predecessor",
+          "style": "navy-blue",
+          "blocks": [],
+          "defaultContent": [".cmp-title h1", ".cmp-text"]
+        },
+        {
+          "id": "section-2-video-content",
+          "name": "Video Content Area",
+          "selector": ".container.abbvie-container.cmp-container-full-width.height-short",
+          "style": null,
+          "blocks": ["columns", "cards", "quote"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3-explore-rd",
+          "name": "Explore R&D Community",
+          "selector": ".container.abbvie-container.no-bottom-margin.no-padding",
+          "style": null,
+          "blocks": ["columns"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4-discovery-video",
+          "name": "Discovery Video",
+          "selector": ".video.cmp-video-full-width.video-default.aem-GridColumn",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [".cmp-video__text-content div[role='heading']", ".cmp-video__text-content p"]
+        },
+        {
+          "id": "section-5-faq",
+          "name": "FAQ Section",
+          "selector": ".container.abbvie-container.default-radius.cmp-container-xxx-large",
+          "style": null,
+          "blocks": ["accordion"],
+          "defaultContent": [".cmp-title h2"]
+        },
+        {
+          "id": "section-6-cta",
+          "name": "CTA Banner",
+          "selector": ".container.abbvie-container.medium-radius.cmp-container-full-width.height-short.no-bottom-margin",
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": [".cmp-title h4", ".cmp-button"]
+        }
+      ]
     }
   ]
 }
